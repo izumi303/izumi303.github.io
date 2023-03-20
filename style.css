@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6, h7, h8{
+    font-family:"Didot", "游明朝", Serif;
+}
+div, body{
+    font-family:"Cambria", "游明朝", serif;
+}
+header{
+    margin-top: 0px;
+    max-width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    min-height: auto;
+    margin: auto;
+    background-color: white;
+    border-bottom: 1px solid #8D6E63;
+    position: relative;
+}
+.red{
+    text-decoration: none;
+    color:#E91E63;
+}
+.content{
+    max-width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+th,td {
+    border: solid 1px #8D6E63;  
+    padding-left: 16px;
+    padding-right: 16px;     
+}
+ 
+table {
+    border-collapse:  collapse; 
+}
+ 
+.home{
+  text-decoration: none;
+  margin-right: 35px;
+  display: block;
+  color: #8D6E63;
+  text-align: right;
+  position: absolute;
+  bottom: auto;
+  right: 0px;
+
+}
+
+.link{
+    color: #8D6E63;
+}
+h1{
+    color: #E91E63;
+}
+h2{
+    color: #E91E63;
+}
+h3{
+    font-size: 100%;
+    font-weight: normal;
+}
