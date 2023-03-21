@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6, h7, h8{
     font-family:"Didot", "游明朝", Serif;
 }
 div, body{
-    font-family:"Cambria", "游明朝", serif;
+    font-family:"Didot", "游明朝", serif;
 }
 header{
     margin-top: 0px;
@@ -44,16 +44,24 @@ table {
 .home{
   text-decoration: none;
   margin-right: 35px;
-  display: block;
   color: #8D6E63;
   text-align: right;
-  position: absolute;
-  bottom: auto;
-  right: 0px;
-
 }
 
+.nav_ul{
+    display: flex;
+    position: absolute;
+    bottom: auto;
+    right: 0px;
+  
+}
+li{
+    list-style: none;
+}
 .link{
+    color: #8D6E63;
+}
+a{
     color: #8D6E63;
 }
 h1{
@@ -65,4 +73,34 @@ h2{
 h3{
     font-size: 100%;
     font-weight: normal;
+}
+@media  (max-width: 600px) {
+    header{
+        margin-top: 0px;
+        max-width: 900px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        min-height: auto;
+        margin: auto;
+        background-color: white;
+        border-bottom: 1px solid #8D6E63;
+    }
+    .home{
+        text-decoration: none;
+        margin-right: 35px;
+        color: #8D6E63;
+        text-align: left;
+      }
+      
+      .nav_ul{
+          display: flex;
+    
+      }
+    .table_scroll{
+        overflow: scroll;
+    }
+    table, td, th{
+        white-space: nowrap;
+    }
 }
