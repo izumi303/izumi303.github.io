@@ -55,7 +55,7 @@ table {
     right: 0px;
   
 }
-li{
+.nav_ul li{
     list-style: none;
 }
 .link{
