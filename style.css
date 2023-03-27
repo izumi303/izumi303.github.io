@@ -1,10 +1,20 @@
-h1, h2, h3, h4, h5, h6, h7, h8{
-    font-family:"Didot", "游明朝", Serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+    font-family: "Didot", "游明朝", Serif;
 }
-div, body{
-    font-family:"Didot", "游明朝", serif;
+
+div,
+body {
+    font-family: "Didot", "游明朝", serif;
 }
-header{
+
+header {
     margin-top: 0px;
     max-width: 900px;
     padding-left: 50px;
@@ -16,11 +26,13 @@ header{
     border-bottom: 1px solid #8D6E63;
     position: relative;
 }
-.red{
+
+.red {
     text-decoration: none;
-    color:#E91E63;
+    color: #E91E63;
 }
-.content{
+
+.content {
     max-width: 900px;
     padding-left: 50px;
     padding-right: 50px;
@@ -31,51 +43,69 @@ header{
     background-color: white;
 }
 
-th,td {
-    border: solid 1px #8D6E63;  
+th,
+td {
+    border: solid 1px #8D6E63;
     padding-left: 16px;
-    padding-right: 16px;     
-}
- 
-table {
-    border-collapse:  collapse; 
-}
- 
-.home{
-  text-decoration: none;
-  margin-right: 35px;
-  color: #8D6E63;
-  text-align: right;
+    padding-right: 16px;
 }
 
-.nav_ul{
+table {
+    border-collapse: collapse;
+}
+
+.home {
+    text-decoration: none;
+    margin-right: 35px;
+    color: #8D6E63;
+    text-align: right;
+}
+
+.nav_ul {
     display: flex;
     position: absolute;
     bottom: auto;
     right: 0px;
-  
+
 }
-li{
+
+.nav_ul li {
     list-style: none;
 }
-.link{
+
+.link {
     color: #8D6E63;
 }
-a{
+
+a {
     color: #8D6E63;
 }
-h1{
+
+h1 {
     color: #E91E63;
 }
-h2{
+
+h2 {
     color: #E91E63;
 }
-h3{
+
+h3 {
+    font-size: 100%;
+    font-weight: normal;
+    border-bottom: 1px solid #8D6E63;
+}
+
+h4 {
     font-size: 100%;
     font-weight: normal;
 }
-@media  (max-width: 600px) {
-    header{
+
+th {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    header {
         margin-top: 0px;
         max-width: 900px;
         padding-left: 50px;
@@ -86,21 +116,26 @@ h3{
         background-color: white;
         border-bottom: 1px solid #8D6E63;
     }
-    .home{
+
+    .home {
         text-decoration: none;
         margin-right: 35px;
         color: #8D6E63;
         text-align: left;
-      }
-      
-      .nav_ul{
-          display: flex;
-    
-      }
-    .table_scroll{
+    }
+
+    .nav_ul {
+        display: flex;
+
+    }
+
+    .table_scroll {
         overflow: scroll;
     }
-    table, td, th{
+
+    table,
+    td,
+    th {
         white-space: nowrap;
     }
 }
