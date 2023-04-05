@@ -61,13 +61,7 @@ table {
     text-align: right;
 }
 
-.nav_ul {
-    display: flex;
-    position: absolute;
-    bottom: auto;
-    right: 0px;
 
-}
 
 ul li {
     list-style: none;
@@ -102,6 +96,16 @@ h4 {
 
 th {
     font-weight: normal;
+}
+
+@media (min-width: 600px) {
+    .nav_ul {
+        display: flex;
+        position: absolute;
+        bottom: auto;
+        right: 0px;
+    
+    }
 }
 
 @media (max-width: 600px) {
