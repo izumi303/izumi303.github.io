@@ -156,3 +156,12 @@ th {
 summary {
     cursor: pointer;
 }
+
+/*
+↑↑↑目次作成
+*/
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
