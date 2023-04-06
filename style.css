@@ -6,12 +6,12 @@ h5,
 h6,
 h7,
 h8 {
-    font-family: "Didot", "游明朝", Serif;
+    font-family: "Caslon", "游明朝", Serif;
 }
 
 div,
 body {
-    font-family: "Didot", "游明朝", serif;
+    font-family: "Times New Roman", "游明朝", serif;
 }
 
 header {
@@ -108,7 +108,7 @@ th {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     header {
         margin-top: 0px;
         max-width: 900px;
@@ -168,5 +168,5 @@ summary {
 
 em {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
 }
