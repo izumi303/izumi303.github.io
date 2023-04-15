@@ -104,7 +104,7 @@ th {
         position: absolute;
         bottom: auto;
         right: 0px;
-    
+
     }
 }
 
@@ -142,7 +142,14 @@ th {
     th {
         white-space: nowrap;
     }
+
+    ul,
+    ol {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
+
 /*↓↓↓目次作成*/
 
 
