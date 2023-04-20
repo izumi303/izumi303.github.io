@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    <title>Anemone文法詳論</title>
+    <title>Anemone詳論</title>
     <link href="../style.css" rel="stylesheet" type="text/css">
     <script src="../index.js"></script>
 </head>
@@ -18,7 +18,7 @@
         </ul>
 
 
-        <h1>文法詳論</h1>
+        <h1>詳論</h1>
 
     </header>
 
@@ -26,19 +26,53 @@
         <details id="table-of-content" open>
             <summary>目次</summary>
         </details>
+
+        <h2>総論</h2>
+        <p>共通 Anemone が成立したと考えられる年を0年とし、この紀年法を便宜上 A 紀年と呼ぶことにする。Anemone の原郷である大陸では、4 世紀にかけて他の言語がすべて絶滅した。1 世紀から 4 世紀ごろまでは言語の形は大きく変わらなかった。</p>
+        <p>したがって、単に Anemone というときには、1 世紀から 4 世紀までの共通 Anemone を指す。ただし、方言やさまざまな変種があったと考えられることには注意する必要がある。</p>
+
+        <h2>方言</h2>
+        <ol>
+            <li>
+                <h3>方言区分</h3>
+                <p>方言は北部と南部に分けられる。北部方言と南部方言は相互に影響を与えながら形成されたため、共通語が安定して存在していたわけではないが、辞書や文法書では便宜のために共通祖先として考えられるであろう形を用いている（これを共通 Anemone と呼ぶ）。</p>
+            </li>
+            <li>
+                <h3>南部方言</h3>
+                <p>与格 -e が向格 -api に合流した。ただし、一部の機能は属格 -e に引き継がれた。</p>
+                <p>複数人称代名詞に、改新形の nānayi, sānayi, cānayi を使う。</p>
+                <p>アクセントはおおむね相対的な音の高さによって区別する。</p>
+                <p>音韻の面では、標準的な 5 つの母音と 19 の子音をすべて区別する。ただし、ā は後続の子音が 2 つのときに a と合流する。</p>
+                <p>c, j, s はそれぞれ後部歯茎音 [tʃ], [dʒ], [ʃ] で発音する。</p>
+            </li>
+            <li>
+                <h3>北部方言</h3>
+                <p>与格 -e を保つ。複数人称代名詞も、より古い tā, sevā, vā を用いる。</p>
+                <p>アクセントは音の強さと高さで区別する。</p>
+            </li>
+        </ol>
+
         <h2>音韻</h2>
         <ol>
             <li>
                 <h3>単音</h3>
-                <p>母音は 5 種類が表記上区別される。ayi, eyi, uyi は実際には二重母音 [ai̯], [ei̯], [ui̯] で、ai, ei, ui とそれぞれ区別されない。</p>
+                <p>母音は 5 種類が表記上区別される。ayi, eyi, uyi は実際には二重母音 [ai̯], [ei̯], [ui̯] で、ai, ei, ui とそれぞれ区別されない。南部方言においては CC の直前の ā は a である。</p>
+                <p>無声破裂音 p, t, c, k は弱く帯気する。有声破裂音 b, d, j, g は、北部方言において、母音の直後かつ直後に有声音が来る場合、有声摩擦音 [v], [ð], [z], [ɣ] になる。</p>
+                <p>南部方言においては c, j, s はそれぞれ後部歯茎音 [tʃ], [dʒ], [ʃ] だが、北部方言においては [ts], [dz], [s] である。</p>
             </li>
             <li>
                 <h3>音配列</h3>
+                <p>子音連続は 2 つまで。語頭には子音連続は立たない。語末は必ず母音で終わる。単語内の母音連続は一般に嫌われる。</p>
+                <p>語根はほぼ (C)VC(C) であるが、動詞語根ではごくわずかな 1 子音語根（gu「聞く」、hu「言う」、tu「知る」）がある。また一部2音節語根が存在する。</p>
             </li>
             <li>
                 <h3>韻律</h3>
-                <p>Anemone は syllable-timed よりむしろ mora-timed であろうが、各音節の長さは長短の 2 種類である。おそらく長音節が 2 モーラ、短音節が 1 モーラになる。長音節は、主母音が 2 子音に先立つときと、主母音が長母音ないし二重母音であるときとの 2 つであり、それ以外は短音節である。</p>
+                <p>Anemone の南部方言は syllable-timed よりむしろ mora-timed であろうが、各音節の長さは長短の 2 種類である。おそらく長音節が 2 モーラ、短音節が 1 モーラになる。長音節は、主母音が 2 子音に先立つときと、主母音が長母音ないし二重母音であるときとの 2 つであり、それ以外は短音節である。</p>
 
+            </li>
+            <li>
+                <h3>アクセント</h3>
+                <p>語中のアクセントの位置は、例外を除くと語根ごとに決まっているわけではなく、屈折と派生によって決定される。</p>
             </li>
             <li>
                 <h3>音変化</h3>
@@ -83,11 +117,11 @@
                         <p>主文や名詞節で、懐疑・思案・対比を表す。「...するべきかどうか」というような意味。</p>
                         <ul class="example">
                             <li>
-                                Ahāyunimakkā ahandāyunima.
+                                <p>Ahāyunimakkā ahandāyunima.</p>
                                 <p>それを言うべきか、言うまいか。</p>
                             </li>
                             <li>
-                                Suplusince yayāyusima?
+                                <p>Suplusince yayāyusima?</p>
                                 <p>これを買うか迷っているのですか？</p>
                             </li>
                         </ul>
@@ -109,11 +143,11 @@
                         </p>
                         <ul class="example">
                             <li>
-                                Amana bur<em>āyu</em>siffe sāll<em>inda</em>si.
+                                <p>Amana bur<em>āyu</em>siffe sāll<em>inda</em>si.</p>
                                 <p>もしそこに行けば、死ぬだろう。</p>
                             </li>
                             <li>
-                                Amaji ayuk<em>āy</em>iheniffe nā tush<em>inda</em>venna.
+                                <p>Amaji ayuk<em>āy</em>iheniffe nā tush<em>inda</em>venna.</p>
                                 <p>あの時戻っていたら、私は人々に謗られただろう。</p>
                             </li>
                         </ul>
@@ -127,11 +161,11 @@
                         <p>事実の副文には、不定詞を用いる。または、直説法の動名詞を用いる。</p>
                         <ul class="example">
                             <li>
-                                Ipna disi haddandummi atandiheni.
+                                <p>Ipna disi haddandummi atandiheni.</p>
                                 <p>私は食べ物が十分にないことを知らなかった。</p>
                             </li>
                             <li>
-                                Ama uhmā barrihiya ajiheni.
+                                <p>Ama uhmā barrihiya ajiheni.</p>
                                 <p>あの馬は売ったと聞いた。</p>
                             </li>
                         </ul>
@@ -141,7 +175,7 @@
                         <p>時の副文には -ji を使う。</p>
                         <ul class="example">
                             <li>
-                                Papkurata asinduniji basma juhihe.
+                                <p>Papkurata asinduniji basma juhihe.</p>
                                 <p>町を出たときに雨が降ってきた。</p>
                             </li>
                         </ul>
@@ -159,11 +193,11 @@
                 <p>動詞を使役化する接語は -epu がある。他動詞の使役文は二重対格になる。</p>
                 <ul class="example">
                     <li>
-                        Niha sapa burepihe.
+                        <p>Niha sapa burepihe.</p>
                         <p>父は子を行かせた。</p>
                     </li>
                     <li>
-                        Niha sapa yasa erepihe.
+                        <p>Niha sapa yasa erepihe.</p>
                         <p>父は子に水を飲ませた。</p>
                     </li>
                 </ul>
@@ -172,7 +206,10 @@
                 <h3>受動構文</h3>
             </li>
         </ol>
+
+
     </div>
 </body>
+
 
 </html>
